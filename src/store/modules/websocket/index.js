@@ -10,6 +10,7 @@ import WebsocketClass from '@/utils/websocket'
 import { parseStringDate } from '@/utils'
 
 export default {
+  namespaced: true,
   state: {
     response: null,
     socket: null

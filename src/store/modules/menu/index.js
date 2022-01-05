@@ -52,6 +52,7 @@ function menuProcessing(list = []) {
 }
 
 export default {
+  namespaced: true,
   state: {
     active: '', // 当前选中
     isCollapse: false, // 是否折叠

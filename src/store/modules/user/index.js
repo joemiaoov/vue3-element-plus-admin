@@ -11,6 +11,7 @@ import { getToken, setToken } from '@/utils/storage'
 import { loginApi, userInfoApi, editUserInfoApi, logoutApi } from '@/api/login'
 
 export default {
+  namespaced: true,
   state: {
     user: {
       id: '',

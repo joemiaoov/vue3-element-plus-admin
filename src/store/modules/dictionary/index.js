@@ -9,6 +9,7 @@
 import { selectListApi } from '@/api/develop/dictionary/detail'
 
 export default {
+  namespaced: true,
   state: {
     map: {}
   },

@@ -25,6 +25,7 @@ const defaultTabs = [{
 }]
 
 export default {
+  namespaced: true,
   state: {
     active: 'home-home-{}-{}',
     tabs: JSON.parse(JSON.stringify(defaultTabs))

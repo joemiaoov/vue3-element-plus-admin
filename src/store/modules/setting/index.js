@@ -9,6 +9,7 @@
 import { clear, exit } from '@/utils/storage'
 
 export default {
+  namespaced: true,
   state: {
     navbar: {
       headHeight: 50, // 导航头部高度
